@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>file_manager_back</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Directories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="5.0.7" />
+  </ItemGroup>
+
+
+</Project>
